@@ -9,6 +9,9 @@ readme = "README.md"
 python = "^3.11"
 django = "^5.0.4"
 autopep8 = "^2.1.0"
+djangorestframework = "^3.15.1"
+markdown = "^3.6"
+django-filter = "^24.2"
 
 
 [build-system]
