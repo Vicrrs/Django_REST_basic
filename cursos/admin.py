@@ -12,4 +12,4 @@ class CursoAdmin(admin.ModelAdmin):
 @admin.register(Avaliacao)
 class AvaliacaoAdmin(admin.ModelAdmin):
     list_display = ('curso', 'nome', 'email', 'avaliacao',
-                    'criacao', 'atualizacao', 'ativo')
+                    'publicacao', 'atualizacao', 'ativo')
